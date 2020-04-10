@@ -1,0 +1,12 @@
+.ac {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+.ac p {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+}

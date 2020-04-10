@@ -1,0 +1,6 @@
+.admin {
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-gap: 1rem;
+    padding: 1rem;
+}

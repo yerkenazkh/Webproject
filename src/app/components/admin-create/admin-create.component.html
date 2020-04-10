@@ -1,0 +1,9 @@
+<div class="ac">
+    <p>Create new ticket!</p>
+
+    <input type="text" name="from" placeholder="From" [(ngModel)]="ticketInfo.from">
+    <input type="text" name="to" placeholder="To" [(ngModel)]="ticketInfo.to">
+    <input type="text" name="cost" placeholder="Cost" [(ngModel)]="ticketInfo.cost">
+
+    <button (click)="onCreate()">Create</button>
+</div>
