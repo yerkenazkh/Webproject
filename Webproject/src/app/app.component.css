@@ -1,0 +1,13 @@
+.navbar {
+    height: 50px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr auto auto;
+    padding: 0 2rem;
+    grid-gap: 1rem;
+    background: rgb(73, 73, 73);
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}

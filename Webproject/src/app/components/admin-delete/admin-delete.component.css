@@ -1,0 +1,28 @@
+.tickets {
+    padding: 2rem;
+    display: grid;
+    grid-gap: 1rem;
+}
+.tickets p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.ticktes_item {
+    padding: 1rem;
+    background: #f0f0f0;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ticktes_item p {
+    margin: 0;
+}
+.ad {
+    padding: 1rem;
+}
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}

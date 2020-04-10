@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "from": "Almaty",
+        "to": "Uralsk",
+        "cost": 40000
+    },
+    {
+        "id": 1,
+        "to": "Almaty",
+        "from": "Uralsk",
+        "cost": 40000
+    },
+    {
+        "id": 1,
+        "from": "Almaty",
+        "to": "Kokshetau",
+        "cost": 5000
+    }
+]

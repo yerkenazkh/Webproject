@@ -1,0 +1,23 @@
+<div class="ad">
+    <p class="title">delete tickets</p>
+
+    <div class="tickets">
+        <div *ngFor="let ticket of tickets">
+            <div class="ticktes_item">
+                <p>
+                    From: {{ticket.from}}
+                </p>
+                <p>
+                    To: {{ticket.to}}
+                </p>
+                <p>
+                    Cost: {{ticket.cost}}
+                </p>
+                <p>
+                    <button (click)="onDelete(ticket.id)">x</button>
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
