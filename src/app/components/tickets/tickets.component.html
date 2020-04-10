@@ -1,0 +1,30 @@
+<div class="tickets">
+    <p>Список дешевых авиабилетов!</p>
+
+    <div class="selector">
+        <select name="from" id="1" name="selectedFrom" [(ngModel)]="selectedFrom">
+            <option value="" disabled selected>From</option>
+            <option *ngFor="let city of cities" [value]="city.name">{{city.name}}</option>
+        </select>
+        <select name="to" id="2" name="selectedTo" [(ngModel)]="selectedTo">
+            <option value="" disabled selected>To</option>
+            <option *ngFor="let city of cities" [value]="city.name">{{city.name}}</option>
+        </select>
+
+        <button (click)="onSearch()">Искать!</button>
+    </div>
+
+    <div *ngFor="let ticket of tickets">
+        <div class="ticktes_item">
+            <p>
+                From: {{ticket.from}}
+            </p>
+            <p>
+                To: {{ticket.to}}
+            </p>
+            <p>
+                Cost: {{ticket.cost}}
+            </p>
+        </div>
+    </div>
+</div>
